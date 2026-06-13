@@ -10,6 +10,8 @@ import java.util.Scanner;
 class FizzBuzz {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter number to know fizzbuzz: ");
         int n = sc.nextInt();
 
         if (n % 3 == 0) {

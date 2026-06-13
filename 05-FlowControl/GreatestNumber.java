@@ -6,8 +6,13 @@ class GreatestNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Enter integer a: ");
         int a = sc.nextInt();
+
+        System.out.println("Enter integer b: ");
         int b = sc.nextInt();
+
+        System.out.println("Enter integer c: ");
         int c = sc.nextInt();
 
         // code here

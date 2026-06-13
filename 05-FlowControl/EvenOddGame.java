@@ -8,9 +8,11 @@ import java.util.Scanner;
 class EvenOddGame {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter Number to know who wins");
         int n = sc.nextInt();
 
-        // code here
+        /
         if ( n % 2 == 1) {
             System.out.println("You");
         } else {

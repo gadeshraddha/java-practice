@@ -3,9 +3,11 @@ import java.util.Scanner;
 class SwitchStatement {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter number from 1-9 to know the spelling: ");
         int n = sc.nextInt();
 
-        // code here
+        
         switch (n) {
         case 1:
             System.out.println("One");
