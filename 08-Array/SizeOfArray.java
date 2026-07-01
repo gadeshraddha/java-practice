@@ -1,5 +1,5 @@
 //Given an array arr[], find the size of the array.
-import java.util.Scanner;
+
 class SizeOfArray {
 
     public static void main(String[] args) {
